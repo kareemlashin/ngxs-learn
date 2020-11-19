@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    overflow-x: hidden !important;
+    background-color: #F2F3F8;
+}
+
+button.all-btn {
+    background-color: #627DFE !important;
+    border: none !important;
+    outline: none !important;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.h-100-all {
+    min-height: 100vh !important;
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    background-color: #F2F3F8;
+    padding: 2px 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.control {
+    top: 0px;
+    right: 5px;
+}
+
+.trash {
+    color: #F45366 !important;
+}
+
+.edit {
+    color: #FBBE41 !important;
+}
+
+.navbar-brand {
+    color: #627DFE !important;
+    font-weight: 700 !important;
+}
